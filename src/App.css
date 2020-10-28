@@ -41,7 +41,12 @@
    text-align: center;
 }
 
-
 .nav{
-  posistion: 1000px
+  float: right;
+  margin-left: 980px;
+}
+
+.nav3{
+  float: right;
+  margin-left: -10000px;
 }

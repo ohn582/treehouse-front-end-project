@@ -20,7 +20,7 @@ class App extends Component {
               <li className="nav-item active">
                 <a className="nav-link" href="#">Contact Us</a>
               </li>
-              <li className="nav-item dropdown">
+              <li className="nav-item dropdown" className="nav2">
                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   V
                 </a>
@@ -48,14 +48,14 @@ class App extends Component {
                   <a class="dropdown-item" href="#">Forgot password?</a>
                 </div> */}
 
-                <div className="dropdown-menu">
+                <div className="dropdown-menu dropdown-menu-right">
                   
                   <div class="dropdown-divider"></div>
-                    <label for="exampleDropdownFormEmail1">Switch Supplier</label>
-                    <br/>
-                    <label for="exampleDropdownFormPassword1">Settings</label>
-                    <br />
-                    <label for="exampleDropdownFormPassword1">Log In</label>
+                  <label for="exampleDropdownFormEmail1" href="#">Switch Supplier</label>
+                  <br/>
+                  <label for="exampleDropdownFormPassword1" href="#">Settings</label>
+                  <br />
+                  <label for="exampleDropdownFormPassword1" href="#">Log In</label>
                   
                 </div>
                 
@@ -63,6 +63,7 @@ class App extends Component {
             </ul>
           </div>
         </nav>
+
         <Router>
           <div>
             <h1>Welcome to Game App</h1>
