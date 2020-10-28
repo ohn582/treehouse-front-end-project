@@ -44,7 +44,7 @@ class App extends Component {
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item" href="#">New around here? Sign up</a>
                   <a class="dropdown-item" href="#">Forgot password?</a>
-                </div> */}w
+                </div> */}
                 
               </li>
             </ul>
