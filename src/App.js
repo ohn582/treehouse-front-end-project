@@ -15,23 +15,53 @@ class App extends Component {
     return (
       <>
         <nav className="navbar navbar-expand-lg navbar-dark bg-info">
-          <img src={hb} class="rounded float-left" alt=" " class="hb" />
+          <a className="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <img src={hb} class="rounded float-left" alt=" " class="hb" />
+          </a>
+          <div className="dropdown-menu dropdown-menu-left bg-secondary">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <div class="dropdown-divider"></div>
+            <br />
+          </div>
 
-          <a className="navbar-brand" class='brand' href="#">Content Former Logo</a>
+          <a className="navbar-brand" class='brand' href="#"><h3>Content Former Logo</h3></a>
 
           <div className="collapse-navbar-collapse" className="nav" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
               
               <li className="nav-item active">
-                <a className="nav-link" href="#" class="navtext1">How It Works</a>
+                <a className="nav-link" href="#" class="navtext1">
+                  <h5>How It Works</h5>
+                </a>
               </li>
               <li className="nav-item active">
-                <a className="nav-link" href="#" class="navtext2">Contact Us</a>
+                <a className="nav-link" href="#" class="navtext2">
+                  <h5>Contact Us</h5>
+                </a>
               </li>
               <li className="nav-item active">
                 <a className="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <img src='https://uxwing.com/wp-content/themes/uxwing/download/01-user_interface/bell.png' class="rounded float-right" alt=" " class="bell" />
                 </a>
+                <div className="dropdown-menu dropdown-menu-right bg-secondary">
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <div class="dropdown-divider"></div>
+                  <br />
+                </div>
               </li>
               <li className="nav-item dropdown" className="nav2">
                 <a className="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
@@ -87,8 +117,7 @@ class App extends Component {
                   <br />
                   <img src={icon} class="rounded float-left" alt=" " class="pic" />
                   <label for="exampleDropdownFormPassword1" href="#" class="droptext">Log In</label>
-                </div>
-                
+                </div>             
               </li>
             </ul>
           </div>
@@ -104,7 +133,7 @@ class App extends Component {
           <br />
         </div>
         <div class="text_overlay1">
-          <h2>Title Info</h2>
+          <h1>Title Info</h1>
         </div>
         <div class="text_overlay2">
           <h2>Description: Write anything below!!!</h2>

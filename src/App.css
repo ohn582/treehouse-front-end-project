@@ -48,14 +48,14 @@
 
 .nav{
   float: right;
-  margin-left: 890px;
+  margin-left: -420px;
 }
 
 .brand{
   float: left;
   /* margin-left: 100px; */
   position: relative;
-  left: 40px;
+  left: -1100px;
   text-decoration: none;
   color: black;
 }
