@@ -1,28 +1,41 @@
 import React, { Component } from 'react'
 import './App.css';
-import { BrowserRouter as Router } from "react-router-dom"
+import { BrowserRouter as Router, Route, Link } from "react-router-dom"
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import icon from './pictures/place_holder.png';
+import hb from './pictures/Hamburger_icon.svg.png';
+import avatar from './pictures/place_holder2.png';
+import Agency from './pictures/Agency.png';
+import Supplier from './pictures/Supplier.png';
+import client from './pictures/client.png';
 
 class App extends Component {
   render() {
     return (
       <>
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-info">
+          <img src={hb} class="rounded float-left" alt=" " class="hb" />
+
           <a className="navbar-brand" href="#">Content Former Logo</a>
 
           <div className="collapse-navbar-collapse" className="nav" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
+              
               <li className="nav-item active">
-                <a className="nav-link" href="#">How It Works</a>
+                <a className="nav-link" href="#" class="navtext1">How It Works</a>
               </li>
               <li className="nav-item active">
-                <a className="nav-link" href="#">Contact Us</a>
+                <a className="nav-link" href="#" class="navtext2">Contact Us</a>
+              </li>
+              <li className="nav-item active">
+                <a className="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <img src='https://uxwing.com/wp-content/themes/uxwing/download/01-user_interface/bell.png' class="rounded float-right" alt=" " class="bell" />
+                </a>
               </li>
               <li className="nav-item dropdown" className="nav2">
-                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  V
+                <a className="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
+                  <img src={icon} class="rounded float-left" alt=" " />
                 </a>
 
                 {/* <div className="dropdown-menu">
@@ -48,15 +61,32 @@ class App extends Component {
                   <a class="dropdown-item" href="#">Forgot password?</a>
                 </div> */}
 
-                <div className="dropdown-menu dropdown-menu-right">
-                  
-                  <div class="dropdown-divider"></div>
-                  <label for="exampleDropdownFormEmail1" href="#">Switch Supplier</label>
-                  <br/>
-                  <label for="exampleDropdownFormPassword1" href="#">Settings</label>
+                <div className="dropdown-menu dropdown-menu-right bg-secondary">
                   <br />
-                  <label for="exampleDropdownFormPassword1" href="#">Log In</label>
-                  
+                  <img src={avatar} class="rounded float-left" alt=" " class="pic" />
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <div class="dropdown-divider"></div>
+                  <br />
+                  <img src={icon} class="rounded float-left" alt=" " class="pic" />
+                  <label for="exampleDropdownFormEmail1" href="#" class="droptext">Switch Supplier</label>
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <img src={icon} class="rounded float-left" alt=" " class="pic" />
+                  <label for="exampleDropdownFormPassword1" href="#" class="droptext">Settings</label>
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <img src={icon} class="rounded float-left" alt=" " class="pic" />
+                  <label for="exampleDropdownFormPassword1" href="#" class="droptext">Log In</label>
                 </div>
                 
               </li>
@@ -64,11 +94,30 @@ class App extends Component {
           </div>
         </nav>
 
-        <Router>
-          <div>
-            <h1>Welcome to Game App</h1>
-          </div>
-        </Router>
+        <div>
+          <h1 class="title">Content Transformer</h1>
+          <h2 class="caption">The next generation, AI-powered content transformation and workflow automation platform</h2>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+        </div>
+        <div class="portrait1">
+          <img src={client} class="portrait1" class="rounded float-left" alt=" " class="pic" />
+        </div>
+        <div class="portrait2">
+          <img src={Supplier} class="portrait2" class="rounded float-left" alt=" " class="pic" />
+        </div>
+        <div class="portrait3">
+          <img src={Agency} class="portrait3" class="rounded float-left" alt=" " class="pic" />
+        </div>
+        <div class="text_overlay1">
+          <h2>Title Info</h2>
+        </div>
+        <div class="text_overlay2">
+          <h2>Discription: Write anything below!!!</h2>
+        </div>
       </>
     );
   }

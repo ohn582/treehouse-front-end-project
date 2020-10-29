@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #282c34;
 }
 
 .App-logo {
@@ -37,16 +38,124 @@
   }
 }
 
+
+
+
+
 .collapse-navbar-collapse{
    text-align: center;
 }
 
 .nav{
   float: right;
-  margin-left: 980px;
+  margin-left: 850px;
 }
 
-.nav3{
-  float: right;
-  margin-left: -10000px;
+
+.hb{
+  width: 5%;
+  height: auto;
+}
+
+.bell{
+  width: 50px;
+  height: 50px;
+}
+
+.title{
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial;
+  font-size: 500%;
+}
+
+.caption{
+  text-align: center;
+  margin-top: 50px;
+  font-family: Helvetica;
+}
+
+.pic{
+  float: left;
+  margin-left: 100px;
+  position: relative;
+  left: -70px;
+}
+
+.droptext{
+  position: relative; 
+  top: 10px; 
+  left: -50px; 
+}
+
+.navtext1{
+  position: relative; 
+  top: 16px; 
+  left: -30px;
+  text-decoration: none;
+  color: black;
+}
+
+.navtext2{
+  position: relative; 
+  top: 16px; 
+  left: -10px;
+  text-decoration: none;
+  outline: none;
+  color: black;
+}
+
+.bg {
+  background-color: rgb(19, 194, 107);
+  position: relative; 
+}
+
+.text_overlay1 {
+  position: absolute; 
+   top: 490px; 
+   right: 0; 
+   width: 100%; 
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+  font-size: 900%;
+   color: rgb(255, 255, 255);
+}
+
+.text_overlay2 {
+  position: absolute; 
+  top: 580px; 
+  right: 0; 
+  width: 65%; 
+  font-family: Arial;
+}
+
+.portrait { 
+  top: 300px; 
+  float: left;
+  margin-left: 70px;
+  position: relative;
+  left: -20px;
+}
+
+.portrait1 { 
+  top: 300px; 
+  float: left;
+  margin-left: 30px;
+  position: relative;
+  left: 10px;
+}
+.portrait2 { 
+  top: 300px; 
+  float: left;
+  margin-left: 40px;
+  position: relative;
+  left: -90px;
+}
+
+.portrait3 { 
+  top: -166px; 
+  float: left;
+  margin-left: 10px;
+  position: relative;
+  right: -930px;
 }
