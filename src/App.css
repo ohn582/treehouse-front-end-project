@@ -48,13 +48,25 @@
 
 .nav{
   float: right;
-  margin-left: 850px;
+  margin-left: 890px;
+}
+
+.brand{
+  float: left;
+  /* margin-left: 100px; */
+  position: relative;
+  left: 40px;
+  text-decoration: none;
+  color: black;
 }
 
 
 .hb{
   width: 5%;
   height: auto;
+  float: left;
+  position: relative;
+  left: 15px;
 }
 
 .bell{
@@ -90,7 +102,7 @@
 
 .navtext1{
   position: relative; 
-  top: 16px; 
+  top: 20px; 
   left: -30px;
   text-decoration: none;
   color: black;
@@ -98,7 +110,7 @@
 
 .navtext2{
   position: relative; 
-  top: 16px; 
+  top: 20px; 
   left: -10px;
   text-decoration: none;
   outline: none;
@@ -129,33 +141,28 @@
   font-family: Arial;
 }
 
-.portrait { 
-  top: 300px; 
-  float: left;
-  margin-left: 70px;
-  position: relative;
-  left: -20px;
-}
-
 .portrait1 { 
   top: 300px; 
   float: left;
   margin-left: 30px;
   position: relative;
   left: 10px;
+  box-shadow: 10px 5px 5px rgb(0, 0, 0);
 }
 .portrait2 { 
   top: 300px; 
   float: left;
   margin-left: 40px;
   position: relative;
-  left: -90px;
+  left: 40px;
+  box-shadow: 10px 5px 5px rgb(0, 0, 0);
 }
 
 .portrait3 { 
-  top: -166px; 
+  top: 300px; 
   float: left;
   margin-left: 10px;
   position: relative;
-  right: -930px;
+  left: 90px;
+  box-shadow: 10px 5px 5px rgb(0, 0, 0);
 }

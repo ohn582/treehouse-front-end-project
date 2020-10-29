@@ -17,7 +17,7 @@ class App extends Component {
         <nav className="navbar navbar-expand-lg navbar-dark bg-info">
           <img src={hb} class="rounded float-left" alt=" " class="hb" />
 
-          <a className="navbar-brand" href="#">Content Former Logo</a>
+          <a className="navbar-brand" class='brand' href="#">Content Former Logo</a>
 
           <div className="collapse-navbar-collapse" className="nav" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
@@ -103,21 +103,22 @@ class App extends Component {
           <br />
           <br />
         </div>
-        <div class="portrait1">
-          <img src={client} class="portrait1" class="rounded float-left" alt=" " class="pic" />
-        </div>
-        <div class="portrait2">
-          <img src={Supplier} class="portrait2" class="rounded float-left" alt=" " class="pic" />
-        </div>
-        <div class="portrait3">
-          <img src={Agency} class="portrait3" class="rounded float-left" alt=" " class="pic" />
-        </div>
         <div class="text_overlay1">
           <h2>Title Info</h2>
         </div>
         <div class="text_overlay2">
-          <h2>Discription: Write anything below!!!</h2>
+          <h2>Description: Write anything below!!!</h2>
         </div>
+        <div class="portrait1">
+          <img src={client} class="rounded float-left" alt=" "/>
+        </div>
+        <div class="portrait2">
+          <img src={Supplier} class="rounded float-left" alt=" "/>
+        </div>
+        <div class="portrait3">
+          <img src={Agency} class="rounded float-left" alt=" "/>
+        </div>
+      
       </>
     );
   }
