@@ -146,8 +146,7 @@ class App extends Component {
         </div>
         <div class="portrait3">
           <img src={Agency} class="rounded float-left" alt=" "/>
-        </div>
-      
+        </div>    
       </>
     );
   }
