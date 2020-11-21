@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './App.css';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom"
+import login_form from './components/login_form'
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import icon from './pictures/place_holder.png';
@@ -9,6 +10,7 @@ import avatar from './pictures/place_holder2.png';
 import Agency from './pictures/Agency.png';
 import Supplier from './pictures/Supplier.png';
 import client from './pictures/client.png';
+
 
 class App extends Component {
   render() {
@@ -115,10 +117,16 @@ class App extends Component {
                   <br />
                   <br />
                   <br />
-                  <img src={icon} class="rounded float-left" alt=" " class="pic" />
-                  <label for="exampleDropdownFormPassword1" href="#" class="droptext">Log In</label>
+                  <Router>
+                    <img src={icon} class="rounded float-left" alt=" " class="pic" />
+                    {/* <label for="exampleDropdownFormPassword1" href="#" class="droptext">Log In</label> */}
+                    <Link to="/login_form" class="droptext">Log In</Link>
+                  </Router>
                 </div>             
               </li>
+              <Router>
+                    <Route path="/login_form" component={login_form} />
+              </Router>
             </ul>
           </div>
         </nav>
@@ -151,5 +159,6 @@ class App extends Component {
     );
   }
 }
+
 
 export default App;
