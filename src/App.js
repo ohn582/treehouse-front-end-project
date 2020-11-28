@@ -45,7 +45,9 @@ class App extends Component {
               </li>
               <li className="nav-item active">
                 <a className="nav-link" href="#" class="navtext2">
-                  <h5>Contact Us</h5>
+                  <Router>
+                    <h5>Contact Us</h5>
+                  </Router>
                 </a>
               </li>
               <li className="nav-item active">
